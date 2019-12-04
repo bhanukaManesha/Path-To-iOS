@@ -9,11 +9,11 @@
 import Foundation
 
 
-struct WeatherJSON : Decodable {
+struct WeatherJSON : Codable {
     let list : [WeatherData]
 }
 
-struct WeatherData : Decodable {
+struct WeatherData : Codable {
     
     let name : String
     let main : Main
@@ -21,10 +21,10 @@ struct WeatherData : Decodable {
 
 }
 
-struct Main : Decodable {
+struct Main : Codable {
     let temp : Double
 }
 
-struct Weather : Decodable {
-    let description : String
+struct Weather : Codable {
+    let id : Int
 }
