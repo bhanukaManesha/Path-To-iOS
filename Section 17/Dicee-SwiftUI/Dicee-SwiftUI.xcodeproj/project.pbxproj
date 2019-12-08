@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32B6B4B5239DA82900700592 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32B6B4B4239DA82900700592 /* Pacifico-Regular.ttf */; };
-		32B6B4B7239DAD8000700592 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6B4B6239DAD8000700592 /* InfoView.swift */; };
-		32DC50D2239DA32400CB2776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC50D1239DA32400CB2776 /* AppDelegate.swift */; };
-		32DC50D4239DA32400CB2776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC50D3239DA32400CB2776 /* SceneDelegate.swift */; };
-		32DC50D6239DA32400CB2776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC50D5239DA32400CB2776 /* ContentView.swift */; };
-		32DC50D8239DA32500CB2776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DC50D7239DA32500CB2776 /* Assets.xcassets */; };
-		32DC50DB239DA32500CB2776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DC50DA239DA32500CB2776 /* Preview Assets.xcassets */; };
-		32DC50DE239DA32500CB2776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DC50DC239DA32500CB2776 /* LaunchScreen.storyboard */; };
+		32B6B4C5239DAEB100700592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6B4C4239DAEB100700592 /* AppDelegate.swift */; };
+		32B6B4C7239DAEB100700592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6B4C6239DAEB100700592 /* SceneDelegate.swift */; };
+		32B6B4C9239DAEB100700592 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6B4C8239DAEB100700592 /* ContentView.swift */; };
+		32B6B4CB239DAEB300700592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B6B4CA239DAEB300700592 /* Assets.xcassets */; };
+		32B6B4CE239DAEB300700592 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B6B4CD239DAEB300700592 /* Preview Assets.xcassets */; };
+		32B6B4D1239DAEB300700592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B6B4CF239DAEB300700592 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32B6B4B4239DA82900700592 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		32B6B4B6239DAD8000700592 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		32DC50CE239DA32400CB2776 /* BhanukaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BhanukaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32DC50D1239DA32400CB2776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32DC50D3239DA32400CB2776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32DC50D5239DA32400CB2776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		32DC50D7239DA32500CB2776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32DC50DA239DA32500CB2776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		32DC50DD239DA32500CB2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		32DC50DF239DA32500CB2776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B6B4C1239DAEB100700592 /* Dicee-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B6B4C4239DAEB100700592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32B6B4C6239DAEB100700592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32B6B4C8239DAEB100700592 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32B6B4CA239DAEB300700592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B6B4CD239DAEB300700592 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32B6B4D0239DAEB300700592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B6B4D2239DAEB300700592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32DC50CB239DA32400CB2776 /* Frameworks */ = {
+		32B6B4BE239DAEB100700592 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,50 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32B6B4B3239DA7FE00700592 /* fonts */ = {
+		32B6B4B8239DAEB100700592 = {
 			isa = PBXGroup;
 			children = (
-				32B6B4B4239DA82900700592 /* Pacifico-Regular.ttf */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
-		32DC50C5239DA32400CB2776 = {
-			isa = PBXGroup;
-			children = (
-				32DC50D0239DA32400CB2776 /* BhanukaCard */,
-				32DC50CF239DA32400CB2776 /* Products */,
+				32B6B4C3239DAEB100700592 /* Dicee-SwiftUI */,
+				32B6B4C2239DAEB100700592 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		32DC50CF239DA32400CB2776 /* Products */ = {
+		32B6B4C2239DAEB100700592 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32DC50CE239DA32400CB2776 /* BhanukaCard.app */,
+				32B6B4C1239DAEB100700592 /* Dicee-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32DC50D0239DA32400CB2776 /* BhanukaCard */ = {
+		32B6B4C3239DAEB100700592 /* Dicee-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				32B6B4B3239DA7FE00700592 /* fonts */,
-				32DC50D1239DA32400CB2776 /* AppDelegate.swift */,
-				32DC50D3239DA32400CB2776 /* SceneDelegate.swift */,
-				32DC50D5239DA32400CB2776 /* ContentView.swift */,
-				32B6B4B6239DAD8000700592 /* InfoView.swift */,
-				32DC50D7239DA32500CB2776 /* Assets.xcassets */,
-				32DC50DC239DA32500CB2776 /* LaunchScreen.storyboard */,
-				32DC50DF239DA32500CB2776 /* Info.plist */,
-				32DC50D9239DA32500CB2776 /* Preview Content */,
+				32B6B4C4239DAEB100700592 /* AppDelegate.swift */,
+				32B6B4C6239DAEB100700592 /* SceneDelegate.swift */,
+				32B6B4C8239DAEB100700592 /* ContentView.swift */,
+				32B6B4CA239DAEB300700592 /* Assets.xcassets */,
+				32B6B4CF239DAEB300700592 /* LaunchScreen.storyboard */,
+				32B6B4D2239DAEB300700592 /* Info.plist */,
+				32B6B4CC239DAEB300700592 /* Preview Content */,
 			);
-			path = BhanukaCard;
+			path = "Dicee-SwiftUI";
 			sourceTree = "<group>";
 		};
-		32DC50D9239DA32500CB2776 /* Preview Content */ = {
+		32B6B4CC239DAEB300700592 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				32DC50DA239DA32500CB2776 /* Preview Assets.xcassets */,
+				32B6B4CD239DAEB300700592 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -92,39 +78,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32DC50CD239DA32400CB2776 /* BhanukaCard */ = {
+		32B6B4C0239DAEB100700592 /* Dicee-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32DC50E2239DA32500CB2776 /* Build configuration list for PBXNativeTarget "BhanukaCard" */;
+			buildConfigurationList = 32B6B4D5239DAEB300700592 /* Build configuration list for PBXNativeTarget "Dicee-SwiftUI" */;
 			buildPhases = (
-				32DC50CA239DA32400CB2776 /* Sources */,
-				32DC50CB239DA32400CB2776 /* Frameworks */,
-				32DC50CC239DA32400CB2776 /* Resources */,
+				32B6B4BD239DAEB100700592 /* Sources */,
+				32B6B4BE239DAEB100700592 /* Frameworks */,
+				32B6B4BF239DAEB100700592 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BhanukaCard;
-			productName = BhanukaCard;
-			productReference = 32DC50CE239DA32400CB2776 /* BhanukaCard.app */;
+			name = "Dicee-SwiftUI";
+			productName = "Dicee-SwiftUI";
+			productReference = 32B6B4C1239DAEB100700592 /* Dicee-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		32DC50C6239DA32400CB2776 /* Project object */ = {
+		32B6B4B9239DAEB100700592 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Bhanuka Gamage";
 				TargetAttributes = {
-					32DC50CD239DA32400CB2776 = {
+					32B6B4C0239DAEB100700592 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 32DC50C9239DA32400CB2776 /* Build configuration list for PBXProject "BhanukaCard" */;
+			buildConfigurationList = 32B6B4BC239DAEB100700592 /* Build configuration list for PBXProject "Dicee-SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,49 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 32DC50C5239DA32400CB2776;
-			productRefGroup = 32DC50CF239DA32400CB2776 /* Products */;
+			mainGroup = 32B6B4B8239DAEB100700592;
+			productRefGroup = 32B6B4C2239DAEB100700592 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32DC50CD239DA32400CB2776 /* BhanukaCard */,
+				32B6B4C0239DAEB100700592 /* Dicee-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32DC50CC239DA32400CB2776 /* Resources */ = {
+		32B6B4BF239DAEB100700592 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32DC50DE239DA32500CB2776 /* LaunchScreen.storyboard in Resources */,
-				32B6B4B5239DA82900700592 /* Pacifico-Regular.ttf in Resources */,
-				32DC50DB239DA32500CB2776 /* Preview Assets.xcassets in Resources */,
-				32DC50D8239DA32500CB2776 /* Assets.xcassets in Resources */,
+				32B6B4D1239DAEB300700592 /* LaunchScreen.storyboard in Resources */,
+				32B6B4CE239DAEB300700592 /* Preview Assets.xcassets in Resources */,
+				32B6B4CB239DAEB300700592 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32DC50CA239DA32400CB2776 /* Sources */ = {
+		32B6B4BD239DAEB100700592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B6B4B7239DAD8000700592 /* InfoView.swift in Sources */,
-				32DC50D2239DA32400CB2776 /* AppDelegate.swift in Sources */,
-				32DC50D4239DA32400CB2776 /* SceneDelegate.swift in Sources */,
-				32DC50D6239DA32400CB2776 /* ContentView.swift in Sources */,
+				32B6B4C5239DAEB100700592 /* AppDelegate.swift in Sources */,
+				32B6B4C7239DAEB100700592 /* SceneDelegate.swift in Sources */,
+				32B6B4C9239DAEB100700592 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32DC50DC239DA32500CB2776 /* LaunchScreen.storyboard */ = {
+		32B6B4CF239DAEB300700592 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32DC50DD239DA32500CB2776 /* Base */,
+				32B6B4D0239DAEB300700592 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		32DC50E0239DA32500CB2776 /* Debug */ = {
+		32B6B4D3239DAEB300700592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		32DC50E1239DA32500CB2776 /* Release */ = {
+		32B6B4D4239DAEB300700592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,40 +280,40 @@
 			};
 			name = Release;
 		};
-		32DC50E3239DA32500CB2776 /* Debug */ = {
+		32B6B4D6239DAEB300700592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BhanukaCard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Dicee-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = H9V7R3BRD5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BhanukaCard/Info.plist;
+				INFOPLIST_FILE = "Dicee-SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhanukagamage.BhanukaCard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhanukagamage.Dicee-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		32DC50E4239DA32500CB2776 /* Release */ = {
+		32B6B4D7239DAEB300700592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BhanukaCard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Dicee-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = H9V7R3BRD5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BhanukaCard/Info.plist;
+				INFOPLIST_FILE = "Dicee-SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bhanukagamage.BhanukaCard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhanukagamage.Dicee-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32DC50C9239DA32400CB2776 /* Build configuration list for PBXProject "BhanukaCard" */ = {
+		32B6B4BC239DAEB100700592 /* Build configuration list for PBXProject "Dicee-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32DC50E0239DA32500CB2776 /* Debug */,
-				32DC50E1239DA32500CB2776 /* Release */,
+				32B6B4D3239DAEB300700592 /* Debug */,
+				32B6B4D4239DAEB300700592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32DC50E2239DA32500CB2776 /* Build configuration list for PBXNativeTarget "BhanukaCard" */ = {
+		32B6B4D5239DAEB300700592 /* Build configuration list for PBXNativeTarget "Dicee-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32DC50E3239DA32500CB2776 /* Debug */,
-				32DC50E4239DA32500CB2776 /* Release */,
+				32B6B4D6239DAEB300700592 /* Debug */,
+				32B6B4D7239DAEB300700592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 32DC50C6239DA32400CB2776 /* Project object */;
+	rootObject = 32B6B4B9239DAEB100700592 /* Project object */;
 }
