@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class TodoListViewController: UITableViewController, UISearchBarDelegate {
+class TodoListViewController: UITableViewController {
 
     var itemArray = [Item]()
     
@@ -25,9 +25,6 @@ class TodoListViewController: UITableViewController, UISearchBarDelegate {
         // print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist"))
         
          loadItems()
-        
-        
-        
         
         // if let items = defaults.array(forKey : "TodoListArray") as? [Item] {
         //     itemArray = items
@@ -123,11 +120,8 @@ class TodoListViewController: UITableViewController, UISearchBarDelegate {
         
     }
     
-    
-    func loadItems() {
-        
-        let request : NSFetchRequest<Item> = Item.fetchRequest()
-        
+    func loadItems(with request : NSFetchRequest<Item> = Item.fetchRequest()) {
+                
         do {
             itemArray = try context.fetch(request)
             
@@ -138,6 +132,36 @@ class TodoListViewController: UITableViewController, UISearchBarDelegate {
 
     }
     
+
+    
+}
+
+extension TodoListViewController : UISearchBarDelegate {
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        let request : NSFetchRequest<Item> = Item.fetchRequest()
+        
+        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+        
+        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+                
+        loadItems(with: request)
+        
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        if searchBar.text?.count == 0 {
+            loadItems()
+            
+            DispatchQueue.main.async {
+                searchBar.resignFirstResponder()
+            }
+            
+        }
+        
+    }
     
 }
 
