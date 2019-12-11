@@ -7,9 +7,14 @@
 //
 
 import Foundation
-import CoreData
+import RealmSwift
 
-class Category : NSManagedObject {
+class Category : Object {
+    
+    @objc dynamic var name : String = ""
+    
+    let items = List<Item>()
+    
     
     
 }
