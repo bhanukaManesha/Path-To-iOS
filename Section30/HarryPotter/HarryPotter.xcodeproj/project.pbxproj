@@ -13,6 +13,7 @@
 		32B7D21923AB2BE0001CE340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B7D21723AB2BE0001CE340 /* Main.storyboard */; };
 		32B7D21B23AB2BE1001CE340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B7D21A23AB2BE1001CE340 /* Assets.xcassets */; };
 		32B7D21E23AB2BE1001CE340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B7D21C23AB2BE1001CE340 /* LaunchScreen.storyboard */; };
+		32B7D22623AB2C2B001CE340 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 32B7D22523AB2C2B001CE340 /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32B7D21A23AB2BE1001CE340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32B7D21D23AB2BE1001CE340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32B7D21F23AB2BE1001CE340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B7D22523AB2C2B001CE340 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = harrypotter.mp4; path = ../../../../../../../Desktop/harrypotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		32B7D21023AB2BE0001CE340 /* HarryPotter */ = {
 			isa = PBXGroup;
 			children = (
+				32B7D22523AB2C2B001CE340 /* harrypotter.mp4 */,
 				32B7D21123AB2BE0001CE340 /* AppDelegate.swift */,
 				32B7D21323AB2BE0001CE340 /* art.scnassets */,
 				32B7D21523AB2BE0001CE340 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				32B7D21423AB2BE0001CE340 /* art.scnassets in Resources */,
 				32B7D21E23AB2BE1001CE340 /* LaunchScreen.storyboard in Resources */,
+				32B7D22623AB2C2B001CE340 /* harrypotter.mp4 in Resources */,
 				32B7D21B23AB2BE1001CE340 /* Assets.xcassets in Resources */,
 				32B7D21923AB2BE0001CE340 /* Main.storyboard in Resources */,
 			);
